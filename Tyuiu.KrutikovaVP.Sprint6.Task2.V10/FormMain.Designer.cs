@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.ConditionTask_KVP = new System.Windows.Forms.GroupBox();
             this.textBoxConditionTask_KVP = new System.Windows.Forms.TextBox();
             this.groupBoxInPutData_KVP = new System.Windows.Forms.GroupBox();
@@ -46,6 +46,7 @@
             this.VarY_KVP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonDone_KVP = new System.Windows.Forms.Button();
             this.buttonInfo_KVP = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.ConditionTask_KVP.SuspendLayout();
             this.groupBoxInPutData_KVP.SuspendLayout();
             this.groupBoxOutPutData_KVP.SuspendLayout();
@@ -134,18 +135,18 @@
             // 
             // chartFunction_KVP
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartFunction_KVP.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartFunction_KVP.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartFunction_KVP.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartFunction_KVP.Legends.Add(legend2);
             this.chartFunction_KVP.Location = new System.Drawing.Point(132, 30);
             this.chartFunction_KVP.Name = "chartFunction_KVP";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartFunction_KVP.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartFunction_KVP.Series.Add(series2);
             this.chartFunction_KVP.Size = new System.Drawing.Size(360, 261);
             this.chartFunction_KVP.TabIndex = 2;
             // 
@@ -240,6 +241,7 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chartFunction_KVP;
         private System.Windows.Forms.Button buttonDone_KVP;
         private System.Windows.Forms.Button buttonInfo_KVP;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
