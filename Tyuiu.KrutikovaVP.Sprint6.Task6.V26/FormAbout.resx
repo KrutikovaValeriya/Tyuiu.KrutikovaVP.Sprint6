@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="labelInfo_KVP.Text" xml:space="preserve">
+    <value> Разработчик: Крутикова В. П.
+группа АСОиУб-23-3
+
+Программа разработана в рамках изучения языка C#
+
+Тюменский индустриальный университет (с) 2023
+Высшая школа цифровых технологий (с) 2023
+
+Внутреннее имя: Tyuiu.KrutikovaVP.Sprint6.Task6.V26
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBoxOfMe_KVP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -236,18 +248,6 @@
         c/tA8ZUcAwJkf16XS6Dpv6gRU/0FZ1rwDTHIB7/46KvEMA+FvhxkfhttWo/IfxGqOP3J/fpdLpo7cJY3
         lVpcfxZ99oOf/KOm/wDKv6f56XS6kV4Li/DHHXSmJKnJz79LpddC6vZ+f1/x12TgnH/TJ/r0ul1FS4C9
         0pJU55yx6+1wHn5xzu6XS64VNdldto9R7fPS6XS6ivL/2Q==
-</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value> Разработчик: Крутикова В. П.
-группа АСОиУб-23-3
-
-Программа разработана в рамках изучения языка C#
-
-Тюменский индустриальный университет (с) 2023
-Высшая школа цифровых технологий (с) 2023
-
-Внутреннее имя: Tyuiu.KrutikovaVP.Sprint6.Task6.V26
 </value>
   </data>
 </root>
